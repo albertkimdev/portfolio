@@ -1,6 +1,5 @@
 import App, { Container } from 'next/app'
 import Page from '../components/Page'
-import '@fortawesome/fontawesome-free/css/fontawesome.min.css'
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
