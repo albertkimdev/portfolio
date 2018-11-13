@@ -1,7 +1,13 @@
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+  min-height: 100vh;
+`
+
 const Index = () => (
-  <div>
+  <Wrapper>
     <p>Hi</p>
-  </div>
+  </Wrapper>
 )
 
 export default Index

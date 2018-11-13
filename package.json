@@ -9,9 +9,44 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-styled-components": "^1.8.0",
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "3.4.9"
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      }
+    }
   }
 }

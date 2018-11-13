@@ -5,11 +5,14 @@ import Meta from './Meta'
 
 const theme = {
   // put style data here
-  maxWidth: '1000px'
+  maxWidth: '1000px',
+  black: '#272727',
+  yellow: '#F1C40F'
 }
 
 const StyledPage = styled.div`
-  background: #272727;
+  background: ${props => props.theme.black};
+  color: ${props => props.theme.yellow};
 `
 const Inner = styled.div`
   max-width: ${props => props.theme.maxWidth};
