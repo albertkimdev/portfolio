@@ -70,6 +70,7 @@ const NavCont = styled.header`
   }
 
   .mobile-nav {
+    z-index: 5;
     display: none;
     position: absolute;
     left: -800px;
