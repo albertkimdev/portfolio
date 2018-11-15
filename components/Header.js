@@ -101,9 +101,12 @@ const NavCont = styled.header`
   @media (max-width: 800px) {
     .hamburger {
       display: block;
+      position: fixed;
     }
     .mobile-nav {
       display: block;
+      position: fixed;
+      top: 50px;
     }
     .desktop-nav {
       display: none;
@@ -166,8 +169,11 @@ class Header extends React.Component {
             </Link>
           </div>
           <div>
-            <Link href="/contact">
-              <a className={`${route === '/contact' ? 'underline' : ''}`}>
+            <Link href="https://albertkim1.typeform.com/to/jpiT5P">
+              <a
+                target="_blank"
+                className={`${route === '/contact' ? 'underline' : ''}`}
+              >
                 Contact
               </a>
             </Link>
@@ -184,7 +190,7 @@ class Header extends React.Component {
           <ul>
             <li>
               <Link href="/">
-                <a onClick={this.openNav}>Home</a>
+                <a onClick={this.openNav}>Y</a>
               </Link>
             </li>
             <li>
@@ -203,8 +209,10 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/contact">
-                <a onClick={this.openNav}>Contact</a>
+              <Link href="https://albertkim1.typeform.com/to/jpiT5P">
+                <a target="_blank" onClick={this.openNav}>
+                  Contact
+                </a>
               </Link>
             </li>
           </ul>
