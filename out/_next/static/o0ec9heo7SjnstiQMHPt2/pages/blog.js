@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{248:function(n,e,t){__NEXT_REGISTER_PAGE("/blog",function(){return n.exports=t(249),{page:n.exports.default}})},249:function(n,e,t){"use strict";t.r(e);var o=t(0),u=t.n(o);e.default=function(){return u.a.createElement("div",null,u.a.createElement("p",null,"Blog"))}}},[[248,1,0]]]);
