@@ -157,10 +157,8 @@ class Header extends React.Component {
             </Link>
           </div>
           <div>
-            <Link href="/portfolio">
-              <a className={`${route === '/portfolio' ? 'underline' : ''}`}>
-                Portfolio
-              </a>
+            <Link href="https://github.com/yongelee">
+              <a target="_blank">Portfolio</a>
             </Link>
           </div>
           <div>
@@ -170,12 +168,7 @@ class Header extends React.Component {
           </div>
           <div>
             <Link href="https://albertkim1.typeform.com/to/jpiT5P">
-              <a
-                target="_blank"
-                className={`${route === '/contact' ? 'underline' : ''}`}
-              >
-                Contact
-              </a>
+              <a target="_blank">Contact</a>
             </Link>
           </div>
         </div>
@@ -199,8 +192,10 @@ class Header extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/portfolio">
-                <a onClick={this.openNav}>Portfolio</a>
+              <Link href="https://github.com/yongelee">
+                <a target="_blank" onClick={this.openNav}>
+                  Portfolio
+                </a>
               </Link>
             </li>
             <li>

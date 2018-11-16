@@ -208,9 +208,13 @@ class Index extends React.Component {
         </AboutMe>
         <Work>
           <Heading>Work & Portfolio:</Heading>
+          <p>
+            Check out my Github for links to some code and projects I've worked
+            on.
+          </p>
           <br />
-          <Link href="/portfolio">
-            <a>See More</a>
+          <Link href="https://github.com/yongelee">
+            <a target="_blank">See More</a>
           </Link>
         </Work>
         <Content>
