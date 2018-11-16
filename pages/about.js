@@ -127,8 +127,8 @@ const About = () => (
       <br />
       <br />
       <br />
-      <Link href="/portfolio">
-        <a>My Portfolio</a>
+      <Link href="https://github.com/yongelee">
+        <a target="_blank">My Github</a>
       </Link>
     </Content>
   </Wrapper>

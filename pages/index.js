@@ -220,12 +220,12 @@ class Index extends React.Component {
         <Content>
           <Heading>Blog & Articles:</Heading>
           <p>
-            Check out my blog where I post my writings about web development,
-            startups, UI/UX, and more!
+            Check out my Medium blog where I post my writings about web
+            development, startups, UI/UX, and more!
           </p>
           <br />
-          <Link href="/blog">
-            <a>See More</a>
+          <Link href="https://medium.com/@yongelee">
+            <a target="_blank">See More</a>
           </Link>
         </Content>
         <Service>
